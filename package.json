@@ -4,7 +4,7 @@
   "version": "0.1.0",
   "description": "A Strapi application",
   "scripts": {
-    "test": "NODE_ENV=test jest --config ./__tests__/__config/jest.config.js --testEnvironment=node --forceExit --detectOpenHandles "
+    "test": "jest --config ./__tests__/__config/jest.config.js  "
   },
   "devDependencies": {},
   "dependencies": {
