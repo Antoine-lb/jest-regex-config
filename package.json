@@ -1,20 +1,14 @@
 {
   "name": "my-project",
-  "private": true,
+  "private": false,
   "version": "0.1.0",
-  "description": "A Strapi application",
+  "description": "application",
   "scripts": {
     "test": "jest --config ./__tests__/__config/jest.config.js  "
   },
   "devDependencies": {},
   "dependencies": {
     "jest": "^26.6.3"
-  },
-  "author": {
-    "name": "A Strapi developer"
-  },
-  "strapi": {
-    "uuid": "56f3d738-a30f-4f09-a9cb-1639fed2263c"
   },
   "engines": {
     "node": ">=10.16.0 <=14.x.x",
